@@ -6,7 +6,7 @@ from sklearn.pipeline import make_pipeline
 import numpy as np
 
 
-class StellarModel():
+class MLMOddeler():
 	def __init__(self, df):
 		self.df = df
 		self.X_train = None
